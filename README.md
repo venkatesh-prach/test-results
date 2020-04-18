@@ -55,3 +55,8 @@ lives near a Duck? Or near a phone that rings frequently?
 >>a. A butterfly can fly
 >>b. A butterfly does not make a sound
 - Created Butterfly Java Class
+2. **Can you optimize your model to account for the metamorphosis from caterpillar to
+butterfly?**
+>>a. A Caterpillar cannot fly
+>>b. A Caterpillar can walk (crawl)
+- Inherited Butterfly class from Caterpillar Class
