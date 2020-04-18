@@ -1,11 +1,14 @@
 package com.singtel.test.swimming.animals;
 
+import com.singtel.test.bird.Rooster;
+
 public class Solution {
+//
+
 	public static void main(String[] args) {
-		SwimmingAnimals swimAnimal= new Dolphins();
-		swimAnimal.swim();
-		swimAnimal.walk();
-		swimAnimal.sing();
-		
+
+		Rooster rooster = new Rooster();
+		System.out.println(rooster.getRoosterSoundByLanguage("Telugu"));
+
 	}
 }
