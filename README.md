@@ -49,3 +49,9 @@ lives near a Duck? Or near a phone that rings frequently?
 >>a. Can you model a dolphin that swims without inheriting from a fish class?
 >>b. How do you avoid duplicating code or introducing unneeded overhead?
 - Both Dolphins and Fish are Swmiing animals, hence, it will inherit the swimming behavior from the SwimmingAnimals not from Fish. Code has modified for the same
+
+##### D. Model animals that change their behaviour over time
+1. **Can you model a butterfly?**
+>>a. A butterfly can fly
+>>b. A butterfly does not make a sound
+- Created Butterfly Java Class
