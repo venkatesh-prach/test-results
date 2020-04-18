@@ -24,4 +24,8 @@ public abstract class DefaultAbility implements Ability {
 		System.out.println("Swimming Ability not defined");
 		
 	}
+	public void says() {
+		System.out.println("Swimming Ability not defined");
+		
+	}
 }

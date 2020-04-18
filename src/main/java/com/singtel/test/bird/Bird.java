@@ -1,6 +1,6 @@
 package com.singtel.test.bird;
 
-public class Bird extends Animal implements Sound {
+public class Bird extends Animal {
 	
 	@Override
 	public void fly() {

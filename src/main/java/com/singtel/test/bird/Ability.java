@@ -8,5 +8,7 @@ public interface Ability {
 	void sing();
 	
 	void swim();
+	
+	void says();
 
 }
