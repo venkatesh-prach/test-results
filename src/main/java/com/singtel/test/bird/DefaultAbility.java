@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.singtel.test.after.optimize;
+package com.singtel.test.bird;
 
 public abstract class DefaultAbility implements Ability {
 
@@ -17,6 +17,11 @@ public abstract class DefaultAbility implements Ability {
 	
 	public void sing() {
 		System.out.println("Singing Ability not defined");
+		
+	}
+	
+	public void swim() {
+		System.out.println("Swimming Ability not defined");
 		
 	}
 }

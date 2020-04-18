@@ -1,4 +1,4 @@
-package com.singtel.test.after.optimize;
+package com.singtel.test.bird;
 
 public class Animal extends DefaultAbility {
 	

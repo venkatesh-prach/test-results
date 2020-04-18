@@ -8,6 +8,8 @@ import java.io.PrintStream;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.singtel.test.bird.Bird;
+
 public class BirdTest {
 
 	private Bird bird;

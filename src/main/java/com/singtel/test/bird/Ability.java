@@ -1,4 +1,4 @@
-package com.singtel.test.after.optimize;
+package com.singtel.test.bird;
 
 public interface Ability {
 	void walk();
@@ -6,5 +6,7 @@ public interface Ability {
 	void fly();
 
 	void sing();
+	
+	void swim();
 
 }
