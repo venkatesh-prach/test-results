@@ -1,6 +1,10 @@
 package com.singtel.test.bird;
 
-public class Duck extends Bird {
+import com.singtel.test.ablitities.FlyAbility;
+import com.singtel.test.ablitities.SwimAbility;
+import com.singtel.test.ablitities.WalkAbility;
+
+public class Duck  extends Bird implements SwimAbility, FlyAbility, WalkAbility{
 
 	public void says() {
 		System.out.println("Quack, quack");

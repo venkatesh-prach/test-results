@@ -1,9 +1,10 @@
 package com.singtel.test.bird;
 
+import com.singtel.test.ablitities.NotSwimAbility;
 import com.singtel.test.animal.Cat;
 import com.singtel.test.animal.Dog;
 
-public class Parrot extends Bird {
+public class Parrot extends Bird implements NotSwimAbility{
 	
 	
 	private Animal livingWith;
@@ -31,6 +32,11 @@ public class Parrot extends Bird {
 		Parrot parrotLivingWithRooster= new Parrot(new Rooster());
 		parrotLivingWithRooster.soundOfLivingWithAnimal();
 	
+	}
+
+	public void swim() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

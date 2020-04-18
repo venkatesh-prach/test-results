@@ -1,12 +1,18 @@
 package com.singtel.test.bird;
 
-import com.singtel.test.ablitities.DefaultAbility;
+import com.singtel.test.ablitities.SoundAbility;
+import com.singtel.test.ablitities.WalkAbility;
 
-public class Animal extends DefaultAbility {
+public class Animal implements WalkAbility, SoundAbility{
 	
-	@Override
 	public void walk() {
 		System.out.println("I am walking");
 	}
+
+	public void says() {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }

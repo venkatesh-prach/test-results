@@ -1,6 +1,10 @@
 package com.singtel.test.bird;
 
-public class Chicken extends Bird {
+import com.singtel.test.ablitities.NotFlyAbility;
+import com.singtel.test.ablitities.SoundAbility;
+import com.singtel.test.ablitities.WalkAbility;
+
+public class Chicken extends Bird implements SoundAbility, WalkAbility, NotFlyAbility {
 
 	@Override
 	public void says() {

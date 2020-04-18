@@ -1,5 +1,7 @@
 package com.singtel.test.swimming.animals;
 
-public class Dolphins extends SwimmingAnimals {
+import com.singtel.test.ablitities.SwimAbility;
+
+public class Dolphins extends SwimmingAnimals implements SwimAbility {
 
 }

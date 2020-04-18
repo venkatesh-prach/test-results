@@ -1,6 +1,9 @@
 package com.singtel.test.bird;
 
-public class Rooster extends Bird {
+import com.singtel.test.ablitities.SoundAbility;
+import com.singtel.test.ablitities.WalkAbility;
+
+public class Rooster extends Animal  implements WalkAbility, SoundAbility {
 
 	private Chicken chicken;
 

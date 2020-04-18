@@ -1,13 +1,14 @@
 package com.singtel.test.bird;
 
-public class Bird extends Animal {
+import com.singtel.test.ablitities.FlyAbility;
+import com.singtel.test.ablitities.SingAbility;
+
+public class Bird extends Animal implements FlyAbility, SingAbility{
 	
-	@Override
 	public void fly() {
 		System.out.println("I am flying");
 	}
 	
-	@Override
 	public void sing() {
 		System.out.println("I am Singing");
 	}
