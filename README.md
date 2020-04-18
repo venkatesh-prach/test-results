@@ -4,7 +4,7 @@
 >>a. How did you unit test it? 
  >>>__implemented the JUnit Test Case__
 >>b. How did you optimize the code for maintainability?
->>>__Optimized the current code by seperating the classess into different files, can see the diffrence with *com.singtel.test.before.optimize*, *com.singtel.test.after.optimize*. And also I have introduced the Default Abstarction class, which will decoupling the enforcing of interface implimation approch. Henece, Code will easily maintainable.__
+>>>__Optimized the current code by seperating the classes into different files, can see the diffrence with *com.singtel.test.before.optimize*, *com.singtel.test.after.optimize*. And also I have introduced the Default Abstarction class, which will decoupling the enforcing of interface implimation approch. Henece, Code will easily maintainable.__
 
 2. **Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you
 implement them to make their own special sound?**
@@ -30,3 +30,17 @@ the rooster.**
 lives near a Duck? Or near a phone that rings frequently?
 
 - Added Utill logic inside parrot Java Class
+
+##### B. Model fish as well as other swimming animals
+1. **In addition to the birds, can you model a fish?**
+>>a. Fishes don’t sing
+>>b. Fishes don’t walk
+>>c. Fishes can swim
+- Added Fish and Swimming Animal java classes
+
+2. **Can you specialize the fish as a Shark and as a Clownfish?**
+>>a. Sharks are large and grey
+>>b. Clownfish are small and colourful (orange)
+>>c. Clownfish make jokes
+>>d. Sharks eat other fish
+- Added Shark and Clownfish Java classes
