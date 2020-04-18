@@ -13,3 +13,9 @@ implement them to make their own special sound?**
 >>c. A chicken says: “Cluck, cluck”
 >>d. A chicken cannot fly 
 -	Introduced Duck, Chicken Classes and Sound Interface
+
+3. **Now how would you model a rooster?**
+>>a. A rooster says: “Cock-a-doodle-doo”
+>>b. How is the rooster related to the chicken?
+>>c. Can you think of other ways to model a rooster without using inheritance?
+-	Rooster is  type of Chicken

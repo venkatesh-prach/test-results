@@ -1,13 +1,12 @@
 package com.singtel.test.bird;
+
 public class Solution {
 	public static void main(String[] args) {
-		
-		Bird duck = new Duck();
-		duck.says();
-		duck.swim();
-		
-		Bird chicken = new Chicken();
+		Rooster rooster = new Rooster();
+		rooster.says();
+		rooster.fly();
+		// Created Chicken Object from Rooster
+		Chicken chicken = rooster.getChicken();
 		chicken.says();
-		chicken.fly();
 	}
 }
