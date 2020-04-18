@@ -1,8 +1,8 @@
 package com.singtel.test.insects;
 
-import com.singtel.test.bird.Animal;
+import com.singtel.test.ablitities.DefaultAbility;
 
-public class Butterfly extends Animal {
+public class Butterfly extends DefaultAbility {
 
 	@Override
 	public void fly() {
