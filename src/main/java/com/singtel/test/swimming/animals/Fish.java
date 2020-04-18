@@ -1,8 +1,6 @@
 package com.singtel.test.swimming.animals;
 
-import com.singtel.test.ablitities.DefaultAbility;
-
-public class Fish extends DefaultAbility {
+public class Fish extends SwimmingAnimals {
 
 	@Override
 	public void sing() {
