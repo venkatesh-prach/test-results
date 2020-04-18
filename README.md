@@ -60,3 +60,10 @@ butterfly?**
 >>a. A Caterpillar cannot fly
 >>b. A Caterpillar can walk (crawl)
 - Inherited Butterfly class from Caterpillar Class
+
+### BONUS
+2 **Can you design a RESTful API for querying these animals?**
+
+- Design Interface that accept Animal name (eg:- Fish) and type(eg:- SwimmingAnimal) in Request parametes, and return the Animal object in response
+
+
