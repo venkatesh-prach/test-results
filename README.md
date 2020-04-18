@@ -44,3 +44,8 @@ lives near a Duck? Or near a phone that rings frequently?
 >>c. Clownfish make jokes
 >>d. Sharks eat other fish
 - Added Shark and Clownfish Java classes
+
+3. **Dolphins are not exactly fish, yet, they are good swimmers**
+>>a. Can you model a dolphin that swims without inheriting from a fish class?
+>>b. How do you avoid duplicating code or introducing unneeded overhead?
+- Both Dolphins and Fish are Swmiing animals, hence, it will inherit the swimming behavior from the SwimmingAnimals not from Fish. Code has modified for the same
