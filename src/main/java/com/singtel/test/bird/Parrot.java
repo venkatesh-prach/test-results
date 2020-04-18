@@ -1,5 +1,8 @@
 package com.singtel.test.bird;
 
+import com.singtel.test.animal.Cat;
+import com.singtel.test.animal.Dog;
+
 public class Parrot extends Bird {
 	
 	

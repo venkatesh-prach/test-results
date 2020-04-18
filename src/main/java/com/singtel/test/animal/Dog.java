@@ -1,4 +1,6 @@
-package com.singtel.test.bird;
+package com.singtel.test.animal;
+
+import com.singtel.test.bird.Animal;
 
 public class Dog extends Animal{
 	

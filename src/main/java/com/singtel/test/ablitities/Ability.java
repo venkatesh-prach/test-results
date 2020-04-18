@@ -1,4 +1,4 @@
-package com.singtel.test.bird;
+package com.singtel.test.ablitities;
 
 public interface Ability {
 	void walk();

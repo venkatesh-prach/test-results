@@ -1,5 +1,7 @@
 package com.singtel.test.bird;
 
+import com.singtel.test.ablitities.DefaultAbility;
+
 public class Animal extends DefaultAbility {
 	
 	@Override

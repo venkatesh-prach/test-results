@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.singtel.test.bird;
+package com.singtel.test.ablitities;
 
 public abstract class DefaultAbility implements Ability {
 
